@@ -155,6 +155,7 @@
 		E4A16CE51A81992A00A9DC23 /* AKNoteProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16C511A81992A00A9DC23 /* AKNoteProperty.m */; };
 		E4A16CE61A81992A00A9DC23 /* AKAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16C541A81992A00A9DC23 /* AKAudioAnalyzer.m */; };
 		E4A16CE71A81992A00A9DC23 /* LevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16C561A81992A00A9DC23 /* LevelMeter.m */; };
+		E4A16CEA1A81999100A9DC23 /* NewInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16CE91A81999100A9DC23 /* NewInstrument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -484,6 +485,8 @@
 		E4A16C541A81992A00A9DC23 /* AKAudioAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAudioAnalyzer.m; sourceTree = "<group>"; };
 		E4A16C551A81992A00A9DC23 /* LevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeter.h; sourceTree = "<group>"; };
 		E4A16C561A81992A00A9DC23 /* LevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeter.m; sourceTree = "<group>"; };
+		E4A16CE81A81999100A9DC23 /* NewInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewInstrument.h; sourceTree = "<group>"; };
+		E4A16CE91A81999100A9DC23 /* NewInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewInstrument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -509,6 +512,8 @@
 		E4A16AC51A8198DA00A9DC23 = {
 			isa = PBXGroup;
 			children = (
+				E4A16CE81A81999100A9DC23 /* NewInstrument.h */,
+				E4A16CE91A81999100A9DC23 /* NewInstrument.m */,
 				E4A16AF71A81992900A9DC23 /* AudioKit */,
 				E4A16AD01A8198DA00A9DC23 /* FirstInstrumentTutorial */,
 				E4A16AEA1A8198DA00A9DC23 /* FirstInstrumentTutorialTests */,
@@ -1344,6 +1349,7 @@
 				E4A16CBF1A81992A00A9DC23 /* AKDelay.m in Sources */,
 				E4A16C851A81992A00A9DC23 /* AKWeightedSumOfSinusoids.m in Sources */,
 				E4A16C8B1A81992A00A9DC23 /* AKMaximum.m in Sources */,
+				E4A16CEA1A81999100A9DC23 /* NewInstrument.m in Sources */,
 				E4A16CBC1A81992A00A9DC23 /* AKMP3FileInput.m in Sources */,
 				E4A16AD71A8198DA00A9DC23 /* AppDelegate.m in Sources */,
 				E4A16C9A1A81992A00A9DC23 /* AKFMOscillator.m in Sources */,
