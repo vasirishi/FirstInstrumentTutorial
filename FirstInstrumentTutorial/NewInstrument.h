@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Nicholas Arner. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "AKFoundation.h"
 
-@interface NewInstrument : UIViewController
+@interface NewInstrument : AKInstrument
 
 @end
