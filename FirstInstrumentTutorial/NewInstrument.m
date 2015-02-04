@@ -21,3 +21,7 @@
 
         AKAudioOutput *audioOutput = [[AKAudioOutput alloc] initWithAudioSource:fmOscillator];
         [self connect:audioOutput];
+    }
+    return self;
+}
+@end
