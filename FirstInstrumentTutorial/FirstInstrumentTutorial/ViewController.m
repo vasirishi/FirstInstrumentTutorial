@@ -21,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    newInstrument = [[NewInstrument alloc] init];
+    [AKOrchestra addInstrument:newInstrument];
 }
 
 - (void)didReceiveMemoryWarning {
