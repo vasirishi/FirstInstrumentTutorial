@@ -14,3 +14,6 @@
 {
     self = [super init];
     if (self) {
+        
+        AKFMOscillator *fmOscillator;
+
