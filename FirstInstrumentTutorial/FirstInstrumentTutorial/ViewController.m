@@ -11,10 +11,6 @@
 #import "AKFoundation.h"
 #import "NewInstrument.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
