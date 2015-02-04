@@ -17,3 +17,4 @@
         
         AKFMOscillator *fmOscillator;
         fmOscillator = [[AKFMOscillator alloc] init];
+        [self connect:fmOscillator];
