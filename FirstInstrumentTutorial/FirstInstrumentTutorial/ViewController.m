@@ -24,6 +24,7 @@
     
     newInstrument = [[NewInstrument alloc] init];
     [AKOrchestra addInstrument:newInstrument];
+    [AKOrchestra start];
 }
 
 - (void)didReceiveMemoryWarning {
