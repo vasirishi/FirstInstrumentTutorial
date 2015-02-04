@@ -28,6 +28,13 @@
 }
 
 - (IBAction)toggleInstrument:(id)sender {
+    if (isNewInstrumentPlaying) {
+        [newInstrument stop];
+        isNewInstrumentPlaying = NO;
+    } else {
+        [newInstrument play];
+        isNewInstrumentPlaying = YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
