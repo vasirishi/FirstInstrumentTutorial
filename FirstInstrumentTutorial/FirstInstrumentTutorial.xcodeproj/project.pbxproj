@@ -28,14 +28,10 @@
 		E4A16C621A81992A00A9DC23 /* libcsound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A16B321A81992900A9DC23 /* libcsound.a */; };
 		E4A16C631A81992A00A9DC23 /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A16B331A81992900A9DC23 /* libsndfile.a */; };
 		E4A16C641A81992A00A9DC23 /* LICENSE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = E4A16B341A81992900A9DC23 /* LICENSE.TXT */; };
-		E4A16C651A81992A00A9DC23 /* AKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16B371A81992900A9DC23 /* AKTools.m */; };
-		E4A16C661A81992A00A9DC23 /* CsoundLib64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A16B391A81992900A9DC23 /* CsoundLib64.framework */; };
-		E4A16C671A81992A00A9DC23 /* CsoundObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16B3B1A81992900A9DC23 /* CsoundObj.m */; };
 		E4A16C681A81992A00A9DC23 /* 808loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4A16B3D1A81992900A9DC23 /* 808loop.wav */; };
 		E4A16C691A81992A00A9DC23 /* mandpluk.aif in Resources */ = {isa = PBXBuildFile; fileRef = E4A16B3E1A81992900A9DC23 /* mandpluk.aif */; };
 		E4A16C6A1A81992A00A9DC23 /* marmstk1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4A16B3F1A81992900A9DC23 /* marmstk1.wav */; };
 		E4A16C6B1A81992A00A9DC23 /* PianoBassDrumLoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4A16B401A81992900A9DC23 /* PianoBassDrumLoop.wav */; };
-		E4A16C6C1A81992A00A9DC23 /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A16B421A81992900A9DC23 /* AudioKit.swift */; };
 		E4A16C6D1A81992A00A9DC23 /* AKParameter+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16B451A81992900A9DC23 /* AKParameter+Operation.m */; };
 		E4A16C6E1A81992A00A9DC23 /* AKTrackedAmplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16B481A81992900A9DC23 /* AKTrackedAmplitude.m */; };
 		E4A16C6F1A81992A00A9DC23 /* AKTrackedAmplitudeFromFSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A16B4A1A81992900A9DC23 /* AKTrackedAmplitudeFromFSignal.m */; };
@@ -239,16 +235,10 @@
 		E4A16B321A81992900A9DC23 /* libcsound.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcsound.a; sourceTree = "<group>"; };
 		E4A16B331A81992900A9DC23 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsndfile.a; sourceTree = "<group>"; };
 		E4A16B341A81992900A9DC23 /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
-		E4A16B361A81992900A9DC23 /* AKTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTools.h; sourceTree = "<group>"; };
-		E4A16B371A81992900A9DC23 /* AKTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTools.m; sourceTree = "<group>"; };
-		E4A16B391A81992900A9DC23 /* CsoundLib64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CsoundLib64.framework; sourceTree = "<group>"; };
-		E4A16B3A1A81992900A9DC23 /* CsoundObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsoundObj.h; sourceTree = "<group>"; };
-		E4A16B3B1A81992900A9DC23 /* CsoundObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsoundObj.m; sourceTree = "<group>"; };
 		E4A16B3D1A81992900A9DC23 /* 808loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 808loop.wav; sourceTree = "<group>"; };
 		E4A16B3E1A81992900A9DC23 /* mandpluk.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = mandpluk.aif; sourceTree = "<group>"; };
 		E4A16B3F1A81992900A9DC23 /* marmstk1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = marmstk1.wav; sourceTree = "<group>"; };
 		E4A16B401A81992900A9DC23 /* PianoBassDrumLoop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PianoBassDrumLoop.wav; sourceTree = "<group>"; };
-		E4A16B421A81992900A9DC23 /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioKit.swift; sourceTree = "<group>"; };
 		E4A16B441A81992900A9DC23 /* AKParameter+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKParameter+Operation.h"; sourceTree = "<group>"; };
 		E4A16B451A81992900A9DC23 /* AKParameter+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AKParameter+Operation.m"; sourceTree = "<group>"; };
 		E4A16B471A81992900A9DC23 /* AKTrackedAmplitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTrackedAmplitude.h; sourceTree = "<group>"; };
@@ -502,7 +492,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A16C621A81992A00A9DC23 /* libcsound.a in Frameworks */,
-				E4A16C661A81992A00A9DC23 /* CsoundLib64.framework in Frameworks */,
 				E4A16C631A81992A00A9DC23 /* libsndfile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,9 +611,7 @@
 			isa = PBXGroup;
 			children = (
 				E4A16B0F1A81992900A9DC23 /* iOS */,
-				E4A16B351A81992900A9DC23 /* OSX */,
 				E4A16B3C1A81992900A9DC23 /* Sound Files */,
-				E4A16B411A81992900A9DC23 /* Swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -701,26 +688,6 @@
 			path = libs;
 			sourceTree = "<group>";
 		};
-		E4A16B351A81992900A9DC23 /* OSX */ = {
-			isa = PBXGroup;
-			children = (
-				E4A16B361A81992900A9DC23 /* AKTools.h */,
-				E4A16B371A81992900A9DC23 /* AKTools.m */,
-				E4A16B381A81992900A9DC23 /* csound-OSX */,
-			);
-			path = OSX;
-			sourceTree = "<group>";
-		};
-		E4A16B381A81992900A9DC23 /* csound-OSX */ = {
-			isa = PBXGroup;
-			children = (
-				E4A16B391A81992900A9DC23 /* CsoundLib64.framework */,
-				E4A16B3A1A81992900A9DC23 /* CsoundObj.h */,
-				E4A16B3B1A81992900A9DC23 /* CsoundObj.m */,
-			);
-			path = "csound-OSX";
-			sourceTree = "<group>";
-		};
 		E4A16B3C1A81992900A9DC23 /* Sound Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -730,14 +697,6 @@
 				E4A16B401A81992900A9DC23 /* PianoBassDrumLoop.wav */,
 			);
 			path = "Sound Files";
-			sourceTree = "<group>";
-		};
-		E4A16B411A81992900A9DC23 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				E4A16B421A81992900A9DC23 /* AudioKit.swift */,
-			);
-			path = Swift;
 			sourceTree = "<group>";
 		};
 		E4A16B431A81992900A9DC23 /* Operations */ = {
@@ -1351,7 +1310,6 @@
 				E4A16C831A81992A00A9DC23 /* AKRandomDistributionTable.m in Sources */,
 				E4A16CB21A81992A00A9DC23 /* AKInterpolatedRandomNumberPulse.m in Sources */,
 				E4A16CBE1A81992A00A9DC23 /* AKStereoConvolution.m in Sources */,
-				E4A16C651A81992A00A9DC23 /* AKTools.m in Sources */,
 				E4A16CA51A81992A00A9DC23 /* AKCabasa.m in Sources */,
 				E4A16C5F1A81992A00A9DC23 /* AKSequence.m in Sources */,
 				E4A16C9D1A81992A00A9DC23 /* AKPhasor.m in Sources */,
@@ -1451,13 +1409,11 @@
 				E4A16CA11A81992A00A9DC23 /* AKPluckedString.m in Sources */,
 				E4A16CC11A81992A00A9DC23 /* AKVariableDelay.m in Sources */,
 				E4A16CE71A81992A00A9DC23 /* LevelMeter.m in Sources */,
-				E4A16C671A81992A00A9DC23 /* CsoundObj.m in Sources */,
 				E4A16C821A81992A00A9DC23 /* AKLineSegments.m in Sources */,
 				E4A16C801A81992A00A9DC23 /* AKExponentialCurves.m in Sources */,
 				E4A16C7B1A81992A00A9DC23 /* AKTableValue.m in Sources */,
 				E4A16CD71A81992A00A9DC23 /* AKFlatFrequencyResponseReverb.m in Sources */,
 				E4A16CCE1A81992A00A9DC23 /* AKThreePoleLowpassFilter.m in Sources */,
-				E4A16C6C1A81992A00A9DC23 /* AudioKit.swift in Sources */,
 				E4A16C8C1A81992A00A9DC23 /* AKMinimum.m in Sources */,
 				E4A16CBD1A81992A00A9DC23 /* AKConvolution.m in Sources */,
 				E4A16CC61A81992A00A9DC23 /* AKDCBlock.m in Sources */,
