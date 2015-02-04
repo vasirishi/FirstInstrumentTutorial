@@ -16,4 +16,4 @@
     if (self) {
         
         AKFMOscillator *fmOscillator;
-
+        fmOscillator = [[AKFMOscillator alloc] init];
