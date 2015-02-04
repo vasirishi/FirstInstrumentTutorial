@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import "AKFoundation.h"
+#import "NewInstrument.h"
+
 @interface ViewController ()
 
 @end
