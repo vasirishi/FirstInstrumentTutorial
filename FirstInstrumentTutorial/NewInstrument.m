@@ -18,3 +18,6 @@
         AKFMOscillator *fmOscillator;
         fmOscillator = [[AKFMOscillator alloc] init];
         [self connect:fmOscillator];
+
+        AKAudioOutput *audioOutput = [[AKAudioOutput alloc] initWithAudioSource:fmOscillator];
+        [self connect:audioOutput];
