@@ -18,6 +18,9 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="myK-k6-C1o">
                                 <rect key="frame" x="276" y="250" width="51" height="31"/>
+                                <connections>
+                                    <action selector="toggleInstrument:" destination="BYZ-38-t0r" eventType="valueChanged" id="NYs-D9-nhg"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
