@@ -194,6 +194,7 @@
 		E4E84B791AD4972100564F3E /* AKPropertyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E84ABF1AD4972100564F3E /* AKPropertyLabel.m */; };
 		E4E84B7A1AD4972100564F3E /* AKPropertySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E84AC11AD4972100564F3E /* AKPropertySlider.m */; };
 		E4E84B7B1AD4972100564F3E /* LevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E84AC31AD4972100564F3E /* LevelMeter.m */; };
+		E4E84B7E1AD497BC00564F3E /* NewInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E84B7D1AD497BC00564F3E /* NewInstrument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -598,6 +599,8 @@
 		E4E84AC11AD4972100564F3E /* AKPropertySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPropertySlider.m; sourceTree = "<group>"; };
 		E4E84AC21AD4972100564F3E /* LevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeter.h; sourceTree = "<group>"; };
 		E4E84AC31AD4972100564F3E /* LevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeter.m; sourceTree = "<group>"; };
+		E4E84B7C1AD497BC00564F3E /* NewInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewInstrument.h; sourceTree = "<group>"; };
+		E4E84B7D1AD497BC00564F3E /* NewInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewInstrument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -623,6 +626,8 @@
 		E4E848D71AD496DC00564F3E = {
 			isa = PBXGroup;
 			children = (
+				E4E84B7C1AD497BC00564F3E /* NewInstrument.h */,
+				E4E84B7D1AD497BC00564F3E /* NewInstrument.m */,
 				E4E849091AD4972000564F3E /* AudioKit */,
 				E4E848E21AD496DC00564F3E /* FirstInstrumentTutorial */,
 				E4E848FC1AD496DC00564F3E /* FirstInstrumentTutorialTests */,
@@ -1783,6 +1788,7 @@
 				E4E84ACA1AD4972100564F3E /* AKNote.m in Sources */,
 				E4E84B3A1AD4972100564F3E /* AKFSignal.m in Sources */,
 				E4E84B171AD4972100564F3E /* AKStereoConvolution.m in Sources */,
+				E4E84B7E1AD497BC00564F3E /* NewInstrument.m in Sources */,
 				E4E84B6F1AD4972100564F3E /* EZAudio.m in Sources */,
 				E4E84ADC1AD4972100564F3E /* AKInverse.m in Sources */,
 				E4E84ACF1AD4972100564F3E /* AKTrackedFrequency.m in Sources */,
