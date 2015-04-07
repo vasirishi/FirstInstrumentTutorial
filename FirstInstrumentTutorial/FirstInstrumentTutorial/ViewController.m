@@ -7,17 +7,35 @@
 //
 
 #import "ViewController.h"
+#import "AKFoundation.h"
+#import "NewInstrument.h"
 
-@interface ViewController ()
 
-@end
-
-@implementation ViewController
+@implementation ViewController {
+    NewInstrument *newInstrument;
+    BOOL isNewInstrumentPlaying;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    newInstrument = [[NewInstrument alloc] init];
+    [AKOrchestra addInstrument:newInstrument];
 }
+
+
+- (IBAction)toggleAction:(id)sender {
+    if (isNewInstrumentPlaying) {
+        [newInstrument stop];
+        isNewInstrumentPlaying = NO;
+    } else {
+        [newInstrument play];
+        isNewInstrumentPlaying = YES;
+    }
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
