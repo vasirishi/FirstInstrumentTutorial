@@ -13,7 +13,6 @@
 		E4E848EF1AD496DC00564F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E848ED1AD496DC00564F3E /* Main.storyboard */; };
 		E4E848F11AD496DC00564F3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E848F01AD496DC00564F3E /* Images.xcassets */; };
 		E4E848F41AD496DC00564F3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E848F21AD496DC00564F3E /* LaunchScreen.xib */; };
-		E4E849001AD496DC00564F3E /* FirstInstrumentTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E848FF1AD496DC00564F3E /* FirstInstrumentTutorialTests.m */; };
 		E4E84AC41AD4972100564F3E /* AKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8490D1AD4972000564F3E /* AKManager.m */; };
 		E4E84AC51AD4972100564F3E /* AKOrchestra.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8490F1AD4972000564F3E /* AKOrchestra.m */; };
 		E4E84AC61AD4972100564F3E /* AudioKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4E849101AD4972000564F3E /* AudioKit.plist */; };
@@ -197,16 +196,6 @@
 		E4E84B7E1AD497BC00564F3E /* NewInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E84B7D1AD497BC00564F3E /* NewInstrument.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E4E848FA1AD496DC00564F3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4E848D81AD496DC00564F3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4E848DF1AD496DC00564F3E;
-			remoteInfo = FirstInstrumentTutorial;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E4E848E01AD496DC00564F3E /* FirstInstrumentTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstInstrumentTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E848E41AD496DC00564F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -218,9 +207,6 @@
 		E4E848EE1AD496DC00564F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E848F01AD496DC00564F3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4E848F31AD496DC00564F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E4E848F91AD496DC00564F3E /* FirstInstrumentTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstInstrumentTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4E848FE1AD496DC00564F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4E848FF1AD496DC00564F3E /* FirstInstrumentTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstInstrumentTutorialTests.m; sourceTree = "<group>"; };
 		E4E8490B1AD4972000564F3E /* AKFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKFoundation.h; sourceTree = "<group>"; };
 		E4E8490C1AD4972000564F3E /* AKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKManager.h; sourceTree = "<group>"; };
 		E4E8490D1AD4972000564F3E /* AKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKManager.m; sourceTree = "<group>"; };
@@ -613,13 +599,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4E848F61AD496DC00564F3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -630,7 +609,6 @@
 				E4E84B7D1AD497BC00564F3E /* NewInstrument.m */,
 				E4E849091AD4972000564F3E /* AudioKit */,
 				E4E848E21AD496DC00564F3E /* FirstInstrumentTutorial */,
-				E4E848FC1AD496DC00564F3E /* FirstInstrumentTutorialTests */,
 				E4E848E11AD496DC00564F3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -639,7 +617,6 @@
 			isa = PBXGroup;
 			children = (
 				E4E848E01AD496DC00564F3E /* FirstInstrumentTutorial.app */,
-				E4E848F91AD496DC00564F3E /* FirstInstrumentTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -664,23 +641,6 @@
 			children = (
 				E4E848E41AD496DC00564F3E /* Info.plist */,
 				E4E848E51AD496DC00564F3E /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E4E848FC1AD496DC00564F3E /* FirstInstrumentTutorialTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4E848FF1AD496DC00564F3E /* FirstInstrumentTutorialTests.m */,
-				E4E848FD1AD496DC00564F3E /* Supporting Files */,
-			);
-			path = FirstInstrumentTutorialTests;
-			sourceTree = "<group>";
-		};
-		E4E848FD1AD496DC00564F3E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4E848FE1AD496DC00564F3E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1538,24 +1498,6 @@
 			productReference = E4E848E01AD496DC00564F3E /* FirstInstrumentTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4E848F81AD496DC00564F3E /* FirstInstrumentTutorialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4E849061AD496DC00564F3E /* Build configuration list for PBXNativeTarget "FirstInstrumentTutorialTests" */;
-			buildPhases = (
-				E4E848F51AD496DC00564F3E /* Sources */,
-				E4E848F61AD496DC00564F3E /* Frameworks */,
-				E4E848F71AD496DC00564F3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4E848FB1AD496DC00564F3E /* PBXTargetDependency */,
-			);
-			name = FirstInstrumentTutorialTests;
-			productName = FirstInstrumentTutorialTests;
-			productReference = E4E848F91AD496DC00564F3E /* FirstInstrumentTutorialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1567,10 +1509,6 @@
 				TargetAttributes = {
 					E4E848DF1AD496DC00564F3E = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					E4E848F81AD496DC00564F3E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = E4E848DF1AD496DC00564F3E;
 					};
 				};
 			};
@@ -1588,7 +1526,6 @@
 			projectRoot = "";
 			targets = (
 				E4E848DF1AD496DC00564F3E /* FirstInstrumentTutorial */,
-				E4E848F81AD496DC00564F3E /* FirstInstrumentTutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1610,13 +1547,6 @@
 				E4E84AC61AD4972100564F3E /* AudioKit.plist in Resources */,
 				E4E84B761AD4972100564F3E /* marmstk1.wav in Resources */,
 				E4E848F11AD496DC00564F3E /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4E848F71AD496DC00564F3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1803,23 +1733,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4E848F51AD496DC00564F3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4E849001AD496DC00564F3E /* FirstInstrumentTutorialTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E4E848FB1AD496DC00564F3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E4E848DF1AD496DC00564F3E /* FirstInstrumentTutorial */;
-			targetProxy = E4E848FA1AD496DC00564F3E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4E848ED1AD496DC00564F3E /* Main.storyboard */ = {
@@ -1947,40 +1861,6 @@
 			};
 			name = Release;
 		};
-		E4E849071AD496DC00564F3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FirstInstrumentTutorialTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstInstrumentTutorial.app/FirstInstrumentTutorial";
-			};
-			name = Debug;
-		};
-		E4E849081AD496DC00564F3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FirstInstrumentTutorialTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstInstrumentTutorial.app/FirstInstrumentTutorial";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2000,14 +1880,7 @@
 				E4E849051AD496DC00564F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		E4E849061AD496DC00564F3E /* Build configuration list for PBXNativeTarget "FirstInstrumentTutorialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4E849071AD496DC00564F3E /* Debug */,
-				E4E849081AD496DC00564F3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
